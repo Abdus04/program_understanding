@@ -1,0 +1,7 @@
+graph G {
+"CoupleGraph"--"Parser" [label = "0,50"]
+"InvocationGraph"--"Parser" [label = "0,10"]
+"Parser"--"MethodDeclarationVisitor" [label = "0,10"]
+"Parser"--"MethodInvocationVisitor" [label = "0,20"]
+"Parser"--"TypeDeclarationVisitor" [label = "0,10"]
+}
